@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança|Sigma</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <style>
+      body{
+    background: url(img/background.png) center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+header{
+    text-align: center;
+    min-width: 600px;
+    max-width: 600px;
+    margin: auto;
+}
+nav{
+    text-align: center;
+    margin: auto;
+    min-width: 600px;
+    max-width: 600px;
+}
+nav>a {
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+nav >a:hover{
+    background-color: rgba(65, 57, 57, 0.192);
+    color: aliceblue;
+ }
+ p{
+   text-align: center;
+ }
+ main{
+     min-width: 300px;
+     max-width: 1000px;
+     background-color: #F3F3F5;
+     margin: auto;
+     border-radius: 25px 25px;
+ }
+ footer{
+     margin: auto;
+     text-align: center;
+ }
+ </style>
+  </head>
+<body>
+  <main>
+    <Header>
+      <p><a href="index.html"><img src="img/sigma_logo(213).webp" alt="Inicio"></a></p>
+        <p>Sigma</p>
+    </Header>
+ <nav>
+    <a href="index.html">Inicio</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="contato.html">Entre em contato</a>
+ </nav>
+    <h1>Segurança de Software</h1>
+    <p>Protocolo de segurança para seu Software</p>
+    <p>Duração: 2 horas | Valor: R$1.000</p>
+    <input type="button" value="Agende já" onclick="agende()">
+    <p><center><img src="img/seguranca(600).webp" alt=""></center></p>
+    <footer>&copy;SIGMA - 2022</footer>
+  </main> 
+  
+  <script>
+    function agende(){
+        window.alert ('Infelizmente Segurança de Software está indisponivel. Informe seu e-mail, que assim que ficar disponivel nós iremos entrar em contato com você! Se caso preferir, pode entrar em contato com a gente via WhatsApp. Vá até "Entre em contato" e nos mande uma mensagem!')
+        window.prompt('Informe seu e-mail:')
+        window.alert('Obrigado, assim que ficar disponivel iremos te enviar um e-mail! :>')
+    }
+</script>
+  
+</body>
+</html>
